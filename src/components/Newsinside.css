@@ -1,0 +1,38 @@
+.main-body {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 70%;
+}
+.main-body .head {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.main-body .advert {
+  display: flex;
+}
+.main-body .advert .advert-number, .main-body .advert .advert-type {
+  border: 1px solid rgba(0, 0, 0, 0.386);
+  width: 8.75rem;
+  line-height: 0.188rem;
+  padding-left: 0.375rem;
+  margin-right: 0.625rem;
+  border-radius: 0.313rem;
+}
+.main-body .advert-time {
+  border-top: 1px solid rgba(0, 0, 0, 0.386);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.386);
+  line-height: 1.875rem;
+  font-size: 0.875rem;
+}
+.main-body .bottom-tags {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .advert-number, .main-body .advert .advert-type {
+    font-size: 0.875rem;
+  }
+}/*# sourceMappingURL=Newsinside.css.map */
